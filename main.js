@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         flame.style.transition = 'all 1s cubic-bezier(0.4, 0, 0.2, 1)';
         flame.style.opacity = '0';
         flame.style.transform = 'scale(0)';
-        instruction.style.opacity = '0';
+        instruction.textContent = 'I LOVEEEEEE UUUUUUU🙃❤️❤️❤️❤️❤️';
 
         fireworks.forEach(firework => {
             firework.classList.remove('hidden');
